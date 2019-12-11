@@ -1,0 +1,55 @@
+
+bianshenyunduo.png
+size: 1974,320
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun1
+  rotate: false
+  xy: 352, 2
+  size: 301, 316
+  orig: 301, 316
+  offset: 0, 0
+  index: -1
+yun2
+  rotate: false
+  xy: 2, 4
+  size: 348, 314
+  orig: 348, 314
+  offset: 0, 0
+  index: -1
+yun3
+  rotate: false
+  xy: 946, 26
+  size: 286, 292
+  orig: 286, 292
+  offset: 0, 0
+  index: -1
+yun4
+  rotate: false
+  xy: 655, 22
+  size: 289, 296
+  orig: 289, 296
+  offset: 0, 0
+  index: -1
+yun5
+  rotate: true
+  xy: 1234, 13
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+yun6
+  rotate: true
+  xy: 1506, 72
+  size: 246, 240
+  orig: 246, 240
+  offset: 0, 0
+  index: -1
+yun7
+  rotate: true
+  xy: 1748, 90
+  size: 228, 224
+  orig: 228, 224
+  offset: 0, 0
+  index: -1

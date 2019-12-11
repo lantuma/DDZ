@@ -1,0 +1,181 @@
+
+zhadan.png
+size: 1154,414
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozhayan1
+  rotate: false
+  xy: 684, 8
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+baozhayan2
+  rotate: false
+  xy: 907, 106
+  size: 124, 50
+  orig: 124, 50
+  offset: 0, 0
+  index: -1
+baozhayan3
+  rotate: false
+  xy: 908, 158
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+baozhayan4
+  rotate: false
+  xy: 908, 224
+  size: 143, 66
+  orig: 143, 66
+  offset: 0, 0
+  index: -1
+baozhayan5
+  rotate: false
+  xy: 684, 29
+  size: 144, 69
+  orig: 144, 69
+  offset: 0, 0
+  index: -1
+baozhayan6
+  rotate: false
+  xy: 530, 15
+  size: 152, 73
+  orig: 152, 73
+  offset: 0, 0
+  index: -1
+ddd-02
+  rotate: false
+  xy: 2, 2
+  size: 526, 410
+  orig: 526, 410
+  offset: 0, 0
+  index: -1
+hhh-03
+  rotate: false
+  xy: 530, 90
+  size: 135, 116
+  orig: 135, 116
+  offset: 0, 0
+  index: -1
+mohu
+  rotate: false
+  xy: 929, 342
+  size: 217, 70
+  orig: 217, 70
+  offset: 0, 0
+  index: -1
+pilichui_kuosan_002
+  rotate: false
+  xy: 929, 292
+  size: 155, 48
+  orig: 155, 48
+  offset: 0, 0
+  index: -1
+pilichui_kuosan_003
+  rotate: false
+  xy: 667, 100
+  size: 173, 52
+  orig: 173, 52
+  offset: 0, 0
+  index: -1
+pilichui_kuosan_004
+  rotate: false
+  xy: 667, 154
+  size: 191, 52
+  orig: 191, 52
+  offset: 0, 0
+  index: -1
+pilichui_kuosan_005
+  rotate: false
+  xy: 712, 255
+  size: 194, 50
+  orig: 194, 50
+  offset: 0, 0
+  index: -1
+pilichui_kuosan_006
+  rotate: false
+  xy: 712, 208
+  size: 194, 45
+  orig: 194, 45
+  offset: 0, 0
+  index: -1
+sp-01
+  rotate: false
+  xy: 1049, 71
+  size: 103, 127
+  orig: 103, 127
+  offset: 0, 0
+  index: -1
+sp-02
+  rotate: true
+  xy: 903, 13
+  size: 91, 120
+  orig: 91, 120
+  offset: 0, 0
+  index: -1
+sp-03
+  rotate: true
+  xy: 860, 154
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+sp-04
+  rotate: true
+  xy: 1053, 200
+  size: 79, 94
+  orig: 79, 94
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 712, 307
+  size: 215, 105
+  orig: 215, 105
+  offset: 0, 0
+  index: -1
+zhadan
+  rotate: false
+  xy: 530, 208
+  size: 180, 204
+  orig: 180, 204
+  offset: 0, 0
+  index: -1
+zhgga1
+  rotate: true
+  xy: 1086, 281
+  size: 59, 62
+  orig: 59, 62
+  offset: 0, 0
+  index: -1
+zhgga2
+  rotate: false
+  xy: 842, 88
+  size: 59, 64
+  orig: 59, 64
+  offset: 0, 0
+  index: -1
+zhgga3
+  rotate: true
+  xy: 830, 28
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+zhgga4
+  rotate: true
+  xy: 1025, 13
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+zhgga5
+  rotate: true
+  xy: 1091, 19
+  size: 50, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1

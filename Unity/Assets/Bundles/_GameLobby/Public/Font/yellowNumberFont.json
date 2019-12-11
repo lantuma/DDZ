@@ -1,0 +1,102 @@
+{"frames": [
+
+{
+	"filename": "0@2x.png",
+	"frame": {"x":0,"y":0,"w":14,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":22},
+	"sourceSize": {"w":14,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1@2x.png",
+	"frame": {"x":14,"y":0,"w":13,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":21},
+	"sourceSize": {"w":13,"h":21},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "2@2x.png",
+	"frame": {"x":0,"y":22,"w":14,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":21},
+	"sourceSize": {"w":14,"h":21},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "3@2x.png",
+	"frame": {"x":14,"y":22,"w":14,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":22},
+	"sourceSize": {"w":14,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "4@2x.png",
+	"frame": {"x":0,"y":44,"w":16,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":21},
+	"sourceSize": {"w":16,"h":21},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "5@2x.png",
+	"frame": {"x":16,"y":44,"w":13,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":22},
+	"sourceSize": {"w":13,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "6@2x.png",
+	"frame": {"x":0,"y":66,"w":14,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":22},
+	"sourceSize": {"w":14,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "7@2x.png",
+	"frame": {"x":14,"y":66,"w":14,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":21},
+	"sourceSize": {"w":14,"h":21},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "8@2x.png",
+	"frame": {"x":0,"y":88,"w":14,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":22},
+	"sourceSize": {"w":14,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "9@2x.png",
+	"frame": {"x":14,"y":88,"w":14,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":22},
+	"sourceSize": {"w":14,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "yellowNumberFont.png",
+	"format": "RGBA8888",
+	"size": {"w":29,"h":110},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5146de3efd235465920361d07f991475:5075dc7d38aae082575f8df6465ab878:98b7ae22a820b9540e2120a8cf499212$"
+}
+}

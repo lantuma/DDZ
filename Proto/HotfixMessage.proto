@@ -1,0 +1,792 @@
+syntax = "proto3";
+package ETHotfix;
+
+message G2C_TestHotfixMessage // IMessage
+{
+	string Info = 1;
+}
+
+message C2M_TestActorRequest // IActorLocationRequest
+{
+	int32 RpcId = 90;
+	int64 ActorId = 91;
+	string Info = 1;
+}
+
+message M2C_TestActorResponse // IActorLocationResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string Info = 1;
+}
+
+message PlayerInfo // IMessage
+{
+	int32 RpcId = 90;
+}
+
+message C2G_PlayerInfo // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message G2C_PlayerInfo // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	PlayerInfo PlayerInfo = 1;
+	repeated PlayerInfo PlayerInfos = 2;
+    repeated string TestRepeatedString = 3;
+    repeated int32 TestRepeatedInt32 = 4;
+    repeated int64 TestRepeatedInt64 = 5;
+}
+
+
+message Actor_Test1_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+}
+
+// 心跳包
+message PingRequest // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message PingResponse // IResponse
+{
+    int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+message C2R_Login // IRequest
+{
+	int32 RpcId = 90;
+	string	Account	 = 1;	
+	string	Password = 2;	
+
+}
+
+message R2C_Login // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string Address = 1;
+	int64 Key = 2;
+	int64 UserId=3;
+}
+
+message C2G_LoginGate // IRequest
+{
+	int32 RpcId = 90;
+	int64 Key = 1;
+	int64 UserId =2;
+}
+
+message G2C_LoginGate // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+
+}
+
+message UserInfo // IMessage
+{
+    string Account =1;
+	int32 playerId =2;
+    string Nickname =3;
+    int32 HeadId =4;
+    float Gold =5;
+    int32 Gender =6;
+	float score =7;
+	bool  IsTourist=8;
+	int64 phoneNumber=9;
+	string BankAccount=10;
+	string BankNumber=11;
+}
+
+message C2G_MobileVeirfyCode_Req // IRequest
+{
+	int32 RpcId = 90;
+
+	string Mobile = 1;
+}
+
+message G2C_MobileVeirfyCode_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+
+	string Mobile = 1;
+	string VerifyCode = 2;
+}
+
+message C2G_MobileLogin_Req // IRequest
+{
+	int32 RpcId = 90;
+
+	string Mobile = 1;
+	string VerifyCode = 2;
+}
+
+message G2C_MobileLogin_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+
+	string Account = 1;
+	string token = 2;
+	string Address = 3;
+	int64 Key = 4;
+	int64 UserId=5;
+}
+
+message C2G_TokenLogin_Req // IRequest
+{
+	int32 RpcId = 90;
+
+	string Account = 1;
+	string token = 2;
+}
+
+message G2C_TokenLogin_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	
+	string Address = 1;
+	int64 Key = 2;
+	int64 UserId=3;
+}
+
+message C2R_Register_Req // IRequest
+{
+	int32 RpcId = 90;
+	string Account =1;
+	string password =2;
+}
+
+message R2C_Register_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+message C2G_GetUserInfo_Req // IRequest
+{
+	int32 RpcId = 90;
+	int64 UserId =1;
+}
+
+message G2C_GetUserInfo_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	UserInfo userInfo =1;
+}
+
+message C2G_ChangerUserInfo_Req // IRequest
+{
+	int32 RpcId = 90;
+	int64 UserId =1;
+	int32 Type =2;     
+	int32 HeadId =3;
+	int32 Gender =4;
+	string NickName =5;
+}
+
+
+message G2C_ChangerUserInfo_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+
+message GameInfo // IMessage
+{
+   int32 GameId =1;    
+   string GameName =2; 
+}
+
+message C2G_GetGameList_Req // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message G2C_GetGameList_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+    repeated GameInfo gameInfo =1;   
+}
+
+message AreaInfo // IMessage
+{
+    int32 GameId =1;   
+	int32 AreaId =2;   
+	int32 Score =3;    
+	string AreaType =4; 
+}
+
+
+message C2G_GetAreaList_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+}
+
+message G2C_GetAreaList_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+    repeated AreaInfo areaInfo =1;  
+}
+
+message RoomListInfo // IMessage
+{
+    int32 GameId =1; 
+	int32 AreaId =2;  
+	int32 RoomId =3;  
+	int32 DiFen =4;   
+}
+
+message C2G_GetRoomList_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+}
+
+message G2C_GetRoomLis_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+    repeated RoomListInfo roomList =1; 
+}
+
+message PlayerData // IMessage
+{
+	int32 ChairId = 1; 
+	int64 UserId =2;   
+	string NickName =3; 
+	int32 Gender =4;   
+	float Gold =5;     
+    bool Robot =6;    
+    int32 HeadId =7;    
+    bool IsWin =8;      
+    float score=9;     
+}
+
+message RoomData //IMessage
+{
+  int32 GameState =1; 	                   
+  repeated PlayerData playerData =2;        
+  repeated int64 SeatPlayer =3;            
+  int32 LeftTime =4;                      
+  repeated Card card =5;                
+  DDZRoomData ddzRoomData=6;             
+}
+
+message C2G_JionRoom_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;
+	int64 UserId =4;
+}
+
+message G2C_JionRoom_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int32 roomId =1;
+}
+
+message Actor_JionRoom_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId= 2;         
+    int64 UserId =3;          
+    PlayerData PlayerData=4;  
+}
+
+message C2G_GetRoomInfo_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int64 UserId =3;
+	int32 roomId=4;
+}
+
+message G2C_GetRoomInfo_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	RoomData roomData =1;   
+}
+
+message Actor_CountDown_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;      
+    int32 LeftTime =3;   
+}
+
+message Card //IMessage
+{
+  repeated int32 Card =1; 
+  string PaiXing =2;      
+  int32 CardType =3;        
+  int32 Multiple =4;      
+}
+
+
+message C2G_QuitRoom_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;
+	int64 UserId =4;
+}
+
+message G2C_QuitRoom_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+message Actor_OtherPlayerSitDown_Ntt //IActorMessage
+{
+    int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;               
+    int64 UserId =3;              
+    PlayerData playerData =4;     
+
+}
+
+message Actor_OtherPlayerStand_Ntt //IActorMessage
+{
+    int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;            
+    int64 UserId =3;              
+    int32 ChairId =4;
+}
+
+message C2G_GetRankList_Req // IRequest
+{
+	int32 RpcId = 90;	
+}
+
+message G2C_GetRankList_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+    repeated UserInfo IncomeList =3;   
+	repeated UserInfo GoldList =4;    
+}
+
+message C2G_ChangerRoom_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;  
+	int64 UserId =4;
+}
+
+message G2C_ChangerRoom_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;            
+	int32 index=4;          
+}
+
+message AnnounceInfo //IMessage
+{
+    string Title=1;      
+	string Content =2;    
+	string Timestamp=3;  
+}
+
+message C2G_Announcement_Req // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message G2C_Announcement_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	repeated AnnounceInfo Info=1; 
+}
+
+message Record //IMessage
+{
+  int32 GameId =1;     
+  string JionTime =2;   
+  string QuitTime =3;    
+  float Income = 4;    
+}
+
+message C2G_MyRecord_Req // IRequest
+{
+	int32 RpcId = 90;
+	int64 UserId =1;     
+}
+
+message G2C_MyRecord_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	repeated Record Recordlist = 1;
+}
+
+message C2G_TouristsLogin_Req // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message G2C_TouristsLogin_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string	Account	 = 1;	
+	string	Password = 2;	
+}
+
+message C2G_ResetPassword_Req // IRequest
+{
+	int32 RpcId = 90;
+    int64  UserId=1;    
+	string	OldPassword = 2;
+	string  NewPassword = 3; 
+}
+
+message G2C_ResetPassword_Res // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+message Actor_PlayerOffline_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	string message1 = 1;
+	int32 PlayerOfflineTypes=2;
+}
+
+message DDZPlayerInfo // IMessage
+{
+   int64 UserId =1;      
+   int32 ChairId = 2;    
+   int32 playerId= 3;    
+   string NickeName =4;  
+   float Gold =5;       
+   int32 HeadId =6;     
+   int32 Gender =7;    
+   float score =8;       
+   bool  IsLord =9;        
+   bool  IsPrepare =10;    
+   int32  QdzJiaoFen=11;     
+}
+
+message DDZRoomData //IMessage
+{
+	int32 GameState =1;                  
+	int32 QdzLifeTime =2;                   
+	int32 CpLifeTime =3;                     
+	int32 JsLifeTime =4;                    
+	repeated int32 SeatPlayer =5;         
+	repeated DDZPlayerInfo PlayerData=6;   
+	int32 DiFen =7;                      
+	int32 ActiveChairId 	= 8;			
+    DDZCard Card =9;                      
+	repeated int32 SurCardsNum = 10;       
+	DDZCard DpCards = 11;			      
+	int32 Times  = 12;					    
+	repeated int32 PassList = 13;					
+	repeated DDZCard PlayLastCircleCards = 14;		
+} 
+
+message C2G_DDZPrepare_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;       
+	int64 UserId=4;    
+	bool  IsPrepare=5;  
+}
+
+message G2C_DDZPrepare_Res // IResponse
+{ 
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+message C2G_DDZAskScore_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;      
+	int64 UserId=4;    
+	int32 Score=5;     
+}
+
+message G2C_DDZAskScore_Res // IResponse
+{ 
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+    int32 ChairId 		= 1;	
+    int32 NextChairId	= 2;	
+    int32 DoType 		= 3;	
+    int32 LordChairId 	= 4;		
+}
+
+message Actor_DDZMakeLord_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	int32 RoomId            = 1;   
+	int32 LordId 		    = 2;     
+	repeated int32 CardsNum = 3;      
+	int32 Times              =4;    
+}
+
+message DDZCard //IMessage
+{
+  bytes Card  =1;  
+  int32 PaiXing =2;       
+  string Points =3;           
+  int32 value =4;             
+  int32 CardsNum=5;       
+  int64 UserId=6;            
+}
+
+message Actor_DDZDealHandCard_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	int32 RoomId =1;       
+	int64 UserId=2;
+    DDZCard Card =3; 
+	repeated int32 SurCardsNum = 4;    
+	DDZCard DpCard=5; 
+}
+
+message C2G_DDZPlayCard_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId =1;
+	int32 AreaId =2;
+	int32 RoomId =3;     
+	int64 UserId=4;       
+	int32 PlayCardStatue=5; 
+	DDZCard PlayCard=6;
+}
+
+message G2C_DDZPlayCard_Res // IResponse
+{ 
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int64 UserId=1;    
+	DDZCard PlayCard=2; 
+	DDZCard Card =3;   
+	repeated int32 SurCardsNum = 4;    
+	int32 nextChairId	= 5; 
+	int32 times=6;       
+}
+
+message Actor_DDZhSettlement_Req_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	int32 RoomId =1;     
+    string message1 = 2;
+	repeated DDZPlayerInfo PlayerData =3;   
+	repeated int32 OtherData =4;        
+	repeated  DDZCard  ShowHand=5;               
+	repeated int32 Beishu=6;                        
+}
+
+message Actor_FirstQdz_Req_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	int32 ChairId = 1; 
+	int32 RoomId=2;  
+}
+
+message Actor_DDZTurnPlayer_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;        
+    int32 OperateId =3;   
+    int32 LeftTime =4;      
+    int32 State =5;     
+}
+
+message Actor_DDZLord_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;        
+    int64 UserId =3;      
+    DDZCard handCards=4; 
+}
+
+message Actor_OtherPlayCard_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;       
+    int64 UserId =3;    
+	DDZCard PlayCard=4; 
+	repeated int32 SurCardsNum = 5;     
+	int32 ChairId=6;               
+	int32 times=7;                
+}
+
+message Actor_JionDDZRoom_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;           
+    int64 UserId =3;             
+    DDZPlayerInfo PlayerData=4;  
+}
+
+message Actor_QuitDDZHRoom_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;            
+    int64 UserId =3;         
+}
+
+message Actor_OtherPrepare_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;       
+	int64 UserId =3;    
+	int32 ChairId=4;       
+	bool  IsPrepare=5;    
+	
+}
+
+message Actor_OtherQdz_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+    string message1 = 1;
+    int32 RoomId =2;       
+	int64 UserId =3;    
+	int32 ChairId=4;     
+	int32 score=5;     
+}
+
+message C2G_IsBoltback_Req // IRequest
+{
+	int32 RpcId = 90;
+	int32 GameId = 1;
+	int32 AreaId = 2;
+	int32 RoomId = 3;
+	int64 UserId = 4;	
+}
+
+message G2C_IsBoltback_Res // IResponse
+{ 
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	bool IsBoltback=1;    
+}
+
+message Actor_UpdateUserInfo_Ntt	// IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	UserInfo userInfo = 1;	
+}
+
+message MailInfo //IMessage
+{
+    string Title=1;      
+	string Content =2;  
+	string Timestamp=3;  
+}
+
+message C2G_MailAsk_Req // IRequest
+{
+	int32 RpcId = 90;
+	int64 UserId=1;        //UserId
+}
+
+
+message G2C_MailReturn_Res // IResponse
+{ 
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	repeated MailInfo Info=1; 
+}
+
+message Actor_ScrollToNotice_Ntt	// IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+	string Content = 1;	
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+package ETHotfix;
+
+ 
+message G2C_1231 // IMessage
+{
+	string Info = 1;
+}

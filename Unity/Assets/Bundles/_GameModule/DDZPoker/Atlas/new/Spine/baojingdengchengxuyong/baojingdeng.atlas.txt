@@ -1,0 +1,20 @@
+
+baojingdeng.png
+size: 395,169
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng
+  rotate: false
+  xy: 327, 97
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 2
+  size: 323, 165
+  orig: 323, 165
+  offset: 0, 0
+  index: -1

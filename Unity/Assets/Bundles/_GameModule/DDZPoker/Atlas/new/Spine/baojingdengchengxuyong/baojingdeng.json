@@ -1,0 +1,78 @@
+{
+"skeleton": {
+	"hash": "COU4slQgsHKGy5qPkubaDLzTfQE",
+	"spine": "3.8.64",
+	"x": -141.18,
+	"y": -5.21,
+	"width": 323,
+	"height": 165,
+	"images": "",
+	"audio": "/Users/lantuma/Desktop/新酷马游戏/子游戏界面/斗地主/斗地主内容动效/报警灯/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "deng", "parent": "root", "x": -4.94, "y": 76.77 },
+	{ "name": "guang", "parent": "deng", "x": 3.05, "y": -1.26 }
+],
+"slots": [
+	{ "name": "deng", "bone": "deng", "attachment": "deng" },
+	{ "name": "guang", "bone": "guang", "attachment": "guang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guang": {
+				"guang": {
+					"type": "mesh",
+					"uvs": [ 1, 0.5047, 1, 1, 0, 1, 1.0E-5, 0.49285, 0, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+					"vertices": [ 152.82, 1.01, 183.71, -80.71, -139.29, -80.71, -111.83, 2.97, -139.29, 84.29, 183.71, 84.29 ],
+					"hull": 6,
+					"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10, 6, 0 ],
+					"width": 323,
+					"height": 165
+				}
+			},
+			"deng": {
+				"deng": { "x": 2.1, "y": 1.02, "width": 66, "height": 70 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"guang": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"guang": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 1.672, "y": 1.672 },
+					{ "time": 0.2667 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"guang": {
+					"guang": [
+						{
+							"time": 0.1333,
+							"offset": 3,
+							"vertices": [ -50.7083, -1.0E-5, -50.7083, 0, 0, 0, 34.32598, 0, 34.32598 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

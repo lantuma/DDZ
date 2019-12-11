@@ -1,0 +1,42 @@
+1.安卓JAR工程
+
+2.环境:Android Studio 3.0.1 版本 64 位
+
+3.作用:1.生成JAR包，方便U3D调用安卓原生方法。
+
+4.提供的方法:
+	1.震动
+	2.原生文字提示
+	3.重新启动应用
+	4.调用第三方APP
+	5.获取安装包和apk名字
+	6.安卓本地推送
+	7.获取电量及WIFI信号
+	8.检测SIM卡类型
+
+5.存在的问题:
+	1.工程中如果存在多个JAR如何兼容  
+	2.相关的权限配置
+
+6.修改时间:zhouyu 2019.7.25 
+
+
+2019.7.27 修改:
+	1.将插件名称改为com.lantuma.poker 与项目包名相同
+	2.配置WIFI，电量，震动的权限
+	3.发现打包时采用：Build System 为 Internal(deprecated)才行，否则会一直提示打包失败。
+	4.增加测试代码（MobileBehaviourTestComponent）,方便后面调试及扩展。动态挂载到主相机上。
+
+	存在的问题:1.插件 Activity 与OpenInstall Activity 如何兼容的问题.[待解决]
+
+2019.7.29 修改:
+	1.正式将包名改为com.lantuma.poker
+	
+	2.Activity合并方案:1.将OpenInstall Activity 执行的代码，合并到自己的Activity
+
+	3.正式提交:1.AndroidLibrary.jar 2.AndroidManifest.xml 
+	
+	4.如果引用错误，如何还原:只需还原AndroidManifest.xml 到上一个版本即可。
+
+2019.11.8 修改:
+	1.增加安卓ChangeApkIcon底层方法，动态更改应用图标.

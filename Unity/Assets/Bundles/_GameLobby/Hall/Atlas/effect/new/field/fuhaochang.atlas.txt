@@ -1,0 +1,125 @@
+
+fuhaochang.png
+size: 795,231
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+diaoluo1
+  rotate: true
+  xy: 688, 7
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+diaoluo3
+  rotate: true
+  xy: 688, 7
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+diaoluo4
+  rotate: true
+  xy: 688, 7
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+diaoluo5
+  rotate: true
+  xy: 688, 7
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+diaoluo6
+  rotate: true
+  xy: 688, 7
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+diaoluo2
+  rotate: false
+  xy: 736, 12
+  size: 48, 45
+  orig: 48, 45
+  offset: 0, 0
+  index: -1
+fuhaochang1
+  rotate: false
+  xy: 236, 98
+  size: 355, 131
+  orig: 355, 131
+  offset: 0, 0
+  index: -1
+guangdai
+  rotate: false
+  xy: 347, 16
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+jinbei
+  rotate: true
+  xy: 2, 7
+  size: 222, 232
+  orig: 222, 232
+  offset: 0, 0
+  index: -1
+jinbizu3
+  rotate: false
+  xy: 236, 11
+  size: 109, 85
+  orig: 109, 85
+  offset: 0, 0
+  index: -1
+jinbizu4
+  rotate: false
+  xy: 593, 109
+  size: 143, 120
+  orig: 143, 120
+  offset: 0, 0
+  index: -1
+piaodai
+  rotate: false
+  xy: 738, 120
+  size: 52, 109
+  orig: 52, 109
+  offset: 0, 0
+  index: -1
+shaizi1
+  rotate: true
+  xy: 593, 2
+  size: 105, 93
+  orig: 105, 93
+  offset: 0, 0
+  index: -1
+shaizi2
+  rotate: false
+  xy: 499, 37
+  size: 69, 59
+  orig: 69, 59
+  offset: 0, 0
+  index: -1
+shaizi3
+  rotate: false
+  xy: 688, 56
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: -1
+shaizi4
+  rotate: true
+  xy: 738, 59
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+shanguang
+  rotate: false
+  xy: 428, 17
+  size: 69, 79
+  orig: 69, 79
+  offset: 0, 0
+  index: -1

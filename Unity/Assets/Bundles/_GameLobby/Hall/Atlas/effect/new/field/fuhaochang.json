@@ -1,0 +1,280 @@
+{
+"skeleton": {
+	"hash": "V9rb8MPa8ONQOOukYLY6eW1pR2M",
+	"spine": "3.8.64",
+	"x": -176.86,
+	"y": -1.69,
+	"width": 359,
+	"height": 282,
+	"images": "./images/",
+	"audio": "/Users/lantuma/Desktop/酷马游戏/新酷马游戏/富豪场/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "fuhaochang1", "parent": "root", "length": 42.13, "rotation": 89.03, "x": -2.57, "y": 59.7 },
+	{ "name": "jinbizu3", "parent": "fuhaochang1", "length": 37.13, "rotation": -0.13, "x": 73.59, "y": -44.46 },
+	{ "name": "shaizi4", "parent": "fuhaochang1", "length": 20.71, "rotation": 0.97, "x": 54.01, "y": -111.2 },
+	{ "name": "shaizi1", "parent": "fuhaochang1", "length": 43.55, "rotation": 0.97, "x": 95.43, "y": -111.21 },
+	{ "name": "shaizi3", "parent": "fuhaochang1", "length": 25.03, "rotation": -2.3, "x": 87.72, "y": -162.04 },
+	{ "name": "shaizi2", "parent": "fuhaochang1", "length": 23.61, "rotation": -2.5, "x": 180.7, "y": -86.2 },
+	{ "name": "diaoluo1", "parent": "fuhaochang1", "length": 19.99, "rotation": 0.97, "x": 184.25, "y": -42.58 },
+	{ "name": "diaoluo2", "parent": "root", "length": 24.28, "rotation": 90, "x": -23.43, "y": 232.75 },
+	{ "name": "diaoluo4", "parent": "fuhaochang1", "length": 18.58, "rotation": -1.23, "x": 197.93, "y": 76.91 },
+	{ "name": "diaoluo5", "parent": "fuhaochang1", "length": 20, "rotation": -1.07, "x": 175.71, "y": 135.09 },
+	{ "name": "diaoluo6", "parent": "fuhaochang1", "length": 16.48, "rotation": 5.94, "x": 86.19, "y": 139.28 },
+	{ "name": "piaodai", "parent": "fuhaochang1", "length": 14.35, "rotation": -173.32, "x": 159.27, "y": -43.72 },
+	{ "name": "piaodai2", "parent": "piaodai", "length": 38.22, "rotation": -38.51, "x": 15.06, "y": -0.07 },
+	{ "name": "piaodai3", "parent": "piaodai2", "length": 20.45, "rotation": 8.02, "x": 37.62, "y": -0.39 },
+	{ "name": "piaodai4", "parent": "piaodai3", "length": 21.2, "rotation": 69.78, "x": 20.45 },
+	{ "name": "piaodai5", "parent": "piaodai3", "length": 18.78, "rotation": 16.03, "x": 22.99, "y": -0.4 },
+	{ "name": "shanguang", "parent": "fuhaochang1", "x": 159.53, "y": 96.02 },
+	{ "name": "diaoluo3", "parent": "fuhaochang1", "length": 15.13, "rotation": -2.61, "x": 111.34, "y": 4.97 },
+	{ "name": "guangdai", "parent": "fuhaochang1", "length": 29.09, "rotation": -81.9, "x": -3.02, "y": 127.21 }
+],
+"slots": [
+	{ "name": "shaizi2", "bone": "shaizi2", "attachment": "shaizi2" },
+	{ "name": "shaizi3", "bone": "shaizi3", "attachment": "shaizi3" },
+	{ "name": "jinbizu3", "bone": "jinbizu3", "attachment": "jinbizu3" },
+	{ "name": "shaizi4", "bone": "shaizi4", "attachment": "shaizi4" },
+	{ "name": "diaoluo5", "bone": "diaoluo5", "attachment": "diaoluo5" },
+	{ "name": "diaoluo6", "bone": "diaoluo6", "attachment": "diaoluo6" },
+	{ "name": "jinbei", "bone": "root", "attachment": "jinbei" },
+	{ "name": "shanguang", "bone": "shanguang", "attachment": "shanguang" },
+	{ "name": "jinbizu4", "bone": "root", "attachment": "jinbizu4" },
+	{ "name": "fuhaochang1", "bone": "fuhaochang1", "attachment": "fuhaochang1" },
+	{ "name": "guangdai", "bone": "guangdai", "attachment": "guangdai" },
+	{ "name": "diaoluo2", "bone": "diaoluo2", "attachment": "diaoluo2" },
+	{ "name": "diaoluo3", "bone": "diaoluo3", "attachment": "diaoluo3" },
+	{ "name": "diaoluo4", "bone": "diaoluo4", "attachment": "diaoluo4" },
+	{ "name": "shaizi1", "bone": "shaizi1", "attachment": "shaizi1" },
+	{ "name": "piaodai", "bone": "piaodai", "attachment": "piaodai" },
+	{ "name": "diaoluo1", "bone": "diaoluo1", "attachment": "diaoluo1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jinbizu3": {
+				"jinbizu3": { "x": 18.5, "y": -11.16, "rotation": -88.9, "width": 109, "height": 85 }
+			},
+			"jinbizu4": {
+				"jinbizu4": { "x": 52.64, "y": 105.31, "width": 143, "height": 120 }
+			},
+			"shaizi1": {
+				"shaizi1": { "x": 33.58, "y": -4.39, "rotation": -90, "width": 105, "height": 93 }
+			},
+			"shaizi2": {
+				"shaizi2": { "x": 10.88, "y": 0.7, "rotation": -86.53, "width": 69, "height": 59 }
+			},
+			"shaizi3": {
+				"shaizi3": { "x": 18.01, "y": 2.83, "rotation": -86.73, "width": 46, "height": 51 }
+			},
+			"shaizi4": {
+				"shaizi4": { "x": 7.99, "y": 1.89, "rotation": -90, "width": 59, "height": 55 }
+			},
+			"piaodai": {
+				"piaodai": {
+					"type": "mesh",
+					"uvs": [ 1, 0.07625, 1, 0.20212, 1, 0.37654, 1, 0.93218, 1, 1, 0.40175, 1, 0.28113, 1, 0, 1, 0, 0.84407, 0, 0.70381, 0, 0, 1, 0, 0.20952, 0.55456, 0.51482, 0.36036, 0.7259, 0.19313, 0.34144, 0.90161, 0.36028, 0.86025, 0.73344, 0.92678, 0.84651, 0.89981, 0.61659, 0.8117, 0.62413, 0.69482, 0.84274, 0.50242, 0.93697, 0.03669 ],
+					"triangles": [ 22, 10, 11, 22, 11, 0, 14, 10, 22, 14, 22, 0, 14, 0, 1, 13, 10, 14, 14, 1, 2, 13, 14, 2, 21, 13, 2, 12, 10, 13, 12, 13, 21, 20, 12, 21, 12, 9, 10, 9, 12, 20, 20, 16, 9, 16, 8, 9, 20, 19, 16, 21, 3, 20, 18, 20, 3, 19, 20, 18, 15, 8, 16, 17, 19, 18, 16, 19, 17, 3, 21, 2, 17, 18, 3, 6, 7, 8, 15, 6, 8, 17, 15, 16, 5, 15, 17, 6, 15, 5, 17, 3, 4, 5, 17, 4 ],
+					"vertices": [ -5.93, 8.93, 7.72, 7.57, 26.63, 5.67, 86.9, -0.35, 94.25, -1.09, 91.16, -32.04, 90.53, -38.28, 89.08, -52.83, 72.17, -51.14, 56.96, -49.62, -19.38, -41.98, -14.2, 9.76, 41.85, -37.16, 22.37, -19.25, 5.32, -6.52, 80.18, -34.1, 75.79, -32.67, 84.93, -14.09, 82.59, -7.94, 71.85, -18.88, 59.21, -17.23, 39.47, -3.83, -10.55, 6.1 ],
+					"hull": 12,
+					"edges": [ 20, 22, 12, 14, 14, 16, 12, 16, 16, 18, 18, 20, 18, 24, 24, 26, 26, 28, 8, 10, 10, 12, 10, 30, 30, 32, 32, 34, 8, 6, 34, 6, 6, 36, 36, 38, 38, 40, 40, 42, 6, 4, 42, 4, 4, 2, 2, 0, 0, 22, 0, 44 ],
+					"width": 52,
+					"height": 109
+				}
+			},
+			"jinbei": {
+				"jinbei": { "x": -63.86, "y": 160.31, "width": 222, "height": 232 }
+			},
+			"diaoluo1": {
+				"diaoluo1": { "x": 8.62, "y": -0.51, "rotation": -90, "width": 47, "height": 31 }
+			},
+			"diaoluo2": {
+				"diaoluo2": { "x": 10.91, "y": 0.87, "rotation": -90, "width": 48, "height": 45 }
+			},
+			"guangdai": {
+				"guangdai": {
+					"type": "mesh",
+					"uvs": [ 1, 0.6276, 1, 0.808, 1, 1, 0, 1, 0, 0.24221, 0, 0, 0.54105, 0, 1, 0, 0.1653, 0.39596, 0.28363, 0.60915, 0.29194, 0.84695, 0.46009, 0.9515, 0.75072, 0.9433, 0.92095, 0.31601, 0.7694, 0.11511, 0.41857, 0.08641, 0.19852, 0.17251, 0.45594, 0.27911, 0.61163, 0.65835 ],
+					"triangles": [ 15, 5, 6, 14, 6, 7, 16, 5, 15, 4, 5, 16, 17, 15, 6, 17, 6, 14, 16, 15, 17, 13, 14, 7, 8, 4, 16, 8, 16, 17, 9, 8, 17, 13, 7, 0, 13, 18, 17, 13, 17, 14, 18, 13, 0, 9, 17, 18, 18, 0, 1, 10, 9, 18, 12, 18, 1, 11, 10, 18, 12, 11, 18, 3, 4, 8, 3, 8, 9, 3, 9, 10, 12, 1, 2, 11, 12, 2, 3, 10, 11, 3, 11, 2 ],
+					"vertices": [ 43.27, -16.22, 41.48, -30.54, 39.58, -45.78, -38.81, -35.98, -31.29, 24.17, -28.89, 43.4, 13.52, 38.1, 49.5, 33.6, -19.86, 10.35, -12.7, -7.74, -14.41, -26.69, -2.26, -36.64, 20.6, -38.84, 40.17, 9.29, 30.28, 26.72, 3.06, 32.44, -15.04, 27.76, 4.08, 16.78, 12.52, -14.86 ],
+					"hull": 8,
+					"edges": [ 4, 6, 6, 8, 8, 10, 8, 16, 16, 18, 18, 20, 20, 22, 22, 24, 4, 2, 24, 2, 2, 0, 0, 14, 0, 26, 26, 28, 10, 12, 12, 14, 28, 12, 12, 30, 30, 32, 32, 8 ],
+					"width": 79,
+					"height": 80
+				}
+			},
+			"diaoluo4": {
+				"diaoluo4": { "x": 5.89, "y": 0.48, "rotation": -87.8, "width": 47, "height": 31 }
+			},
+			"diaoluo5": {
+				"diaoluo5": { "x": 7.49, "y": -0.03, "rotation": -87.95, "width": 47, "height": 31 }
+			},
+			"diaoluo6": {
+				"diaoluo6": { "x": 7.37, "y": -2.66, "rotation": -94.97, "width": 47, "height": 31 }
+			},
+			"shanguang": {
+				"shanguang": { "x": -3.99, "y": 1.48, "rotation": -89.03, "width": 69, "height": 79 }
+			},
+			"diaoluo3": {
+				"diaoluo3": { "x": 6.77, "y": -0.87, "rotation": -86.42, "width": 47, "height": 31 }
+			},
+			"fuhaochang1": {
+				"fuhaochang1": { "x": 4.17, "y": -3.14, "rotation": -89.03, "width": 355, "height": 131 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"shanguang": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffffc8", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"shanguang": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.109, "y": 1.109, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0.228, "y": 0.228 }
+				]
+			},
+			"diaoluo4": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 10.38, "y": 0.18, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"diaoluo5": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": -13.69, "y": -0.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"diaoluo6": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 7.08, "y": 0.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"diaoluo3": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 4.25, "y": 0.07, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"diaoluo2": {
+				"translate": [
+					{ "time": 0.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "y": -9.91, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2667 }
+				]
+			},
+			"diaoluo1": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 5.07, "y": 0.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"shaizi2": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -8.4, "y": -0.14 },
+					{ "time": 1.3333 }
+				]
+			},
+			"shaizi1": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 2.86, "y": 0.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"shaizi3": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": -23.46, "y": 7.7, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"guangdai": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 20.49, "y": -52.87 },
+					{ "time": 0.6667, "x": 30.51, "y": -107.22 },
+					{ "time": 1, "x": 27.12, "y": -168.54 },
+					{ "time": 1.3333, "x": 6.7, "y": -232.28 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"guangdai": {
+					"guangdai": [
+						{
+							"offset": 34,
+							"vertices": [ 0.67473, -0.08437 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.0667,
+							"offset": 20,
+							"vertices": [ -2.57253, -12.35616, 0, 0, 0.00644, 1.30928, 0, 0, 0, 0, 0, 0, 0, 0, 0.53978, -0.06749 ]
+						},
+						{
+							"time": 0.3333,
+							"offset": 20,
+							"vertices": [ 3.90083, -12.65149, 7.25346, 1.83451, 0.0322, 6.54642 ]
+						},
+						{
+							"time": 0.6667,
+							"offset": 2,
+							"vertices": [ 0.09919, -6.94598, 0, 0, 0, 0, 3.86988, 9.02962, 0, 0, 5.27892, -2.91749, 0, 0, 0, 0, -1.72658, -0.9129, 0.01984, -3.71113, 0.55567, 3.15543, 0.25799, 3.35387, -0.67476, -0.23814, 0, 0, 0.47631, 2.52037, 0.87322, 5.69568 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -3.39355, -7.1543, -4.02548, -16.8366, 0, 0, 0, 0, 24.69026, 13.80006, 22.53456, 6.1323, 25.43376, -12.5012, 0, 0, 10.46852, 10.8655, -3.58214, -1.56775, -6.2017, 3.27449, 1.70747, 5.77481, -2.9272, -0.19847, 9.7243, 0.39696, 21.91957, -12.00938, 18.43454, 1.11411, 21.49191, 8.4334 ]
+						},
+						{
+							"time": 1.3333,
+							"vertices": [ -6.78711, -14.30859, -6.82689, -12.04626, 0, 0, 0, 0, 33.53894, 12.89964, 45.06911, 12.2646, 35.44416, -13.13784, 0, 0, 20.93704, 21.731, -5.43771, -2.2226, -12.42326, 10.26012, -1.48842, 2.28225, -6.1124, -3.75081, 20.12336, 1.03206, 34.82891, -14.18947, 30.34386, -3.63168, 31.33602, 6.88646 ]
+						}
+					]
+				},
+				"piaodai": {
+					"piaodai": [
+						{
+							"offset": 10,
+							"vertices": [ -0.0195, -0.19501 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.6667,
+							"offset": 6,
+							"vertices": [ 10.10239, -25.04095, 9.82951, -35.65057, 1.93076, -18.1175, 0.5266, -16.40134, -1.15057, -9.53674, -0.58508, -3.8809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.35973, -11.85726, 3.27637, -10.57009, 7.66446, -25.78211, 7.23541, -22.19353, 2.22322, -7.31318 ]
+						},
+						{
+							"time": 1.3333,
+							"offset": 10,
+							"vertices": [ -0.0195, -0.19501 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,20 @@
+
+bowen.png
+size: 291,182
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b2
+  rotate: false
+  xy: 182, 73
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+b3
+  rotate: false
+  xy: 2, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1

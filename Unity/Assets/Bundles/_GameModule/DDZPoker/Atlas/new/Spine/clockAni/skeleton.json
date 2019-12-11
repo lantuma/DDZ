@@ -1,0 +1,68 @@
+{
+"skeleton": {
+	"hash": "AZBC6Wxg2L1zA2yYB3loMbW1cMg",
+	"spine": "3.8.64",
+	"x": -44,
+	"y": -3,
+	"width": 82,
+	"height": 94,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "naozhong@2x", "parent": "root", "x": -3.87, "y": 41.04 }
+],
+"slots": [
+	{ "name": "naozhong@2x", "bone": "naozhong@2x", "attachment": "naozhong@2x" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"naozhong@2x": {
+				"naozhong@2x": {
+					"type": "mesh",
+					"uvs": [ 1, 0.53193, 1, 1, 0, 1, 0, 0.53193, 0, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+					"vertices": [ 41.87, -0.04, 41.87, -44.04, -40.13, -44.04, -40.13, -0.04, -40.13, 49.96, 41.87, 49.96 ],
+					"hull": 6,
+					"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10, 6, 0 ],
+					"width": 82,
+					"height": 94
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"deform": {
+			"default": {
+				"naozhong@2x": {
+					"naozhong@2x": [
+						{
+							"offset": 9,
+							"vertices": [ -0.25999, 0, -0.25999 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.1,
+							"offset": 3,
+							"vertices": [ 5.82386, 0, 5.82386, 0, 0, 0, -8.16402, 0, -8.16402 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.2,
+							"offset": 9,
+							"vertices": [ -0.25999, 0, -0.25999 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

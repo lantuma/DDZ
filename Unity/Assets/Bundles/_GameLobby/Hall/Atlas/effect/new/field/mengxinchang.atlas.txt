@@ -1,0 +1,62 @@
+
+mengxinchang.png
+size: 722,325
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangpianA
+  rotate: true
+  xy: 370, 169
+  size: 154, 175
+  orig: 154, 175
+  offset: 0, 0
+  index: -1
+guangdai
+  rotate: false
+  xy: 602, 93
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+heichouma
+  rotate: false
+  xy: 321, 19
+  size: 160, 148
+  orig: 160, 148
+  offset: 0, 0
+  index: -1
+heitaoA
+  rotate: false
+  xy: 147, 7
+  size: 172, 175
+  orig: 172, 175
+  offset: 0, 0
+  index: -1
+hongchouma
+  rotate: true
+  xy: 2, 2
+  size: 180, 143
+  orig: 180, 143
+  offset: 0, 0
+  index: -1
+hongxinA
+  rotate: true
+  xy: 547, 175
+  size: 148, 173
+  orig: 148, 173
+  offset: 0, 0
+  index: -1
+meihuaA
+  rotate: false
+  xy: 483, 9
+  size: 117, 158
+  orig: 117, 158
+  offset: 0, 0
+  index: -1
+mengxinchang
+  rotate: false
+  xy: 2, 184
+  size: 366, 139
+  orig: 366, 139
+  offset: 0, 0
+  index: -1

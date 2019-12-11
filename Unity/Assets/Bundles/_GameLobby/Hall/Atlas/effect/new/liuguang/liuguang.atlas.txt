@@ -1,0 +1,13 @@
+
+liuguang.png
+size: 217,95
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liuguang
+  rotate: false
+  xy: 2, 2
+  size: 213, 91
+  orig: 213, 91
+  offset: 0, 0
+  index: -1

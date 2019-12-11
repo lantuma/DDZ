@@ -1,0 +1,27 @@
+
+shunzi.png
+size: 720,715
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gt
+  rotate: false
+  xy: 2, 2
+  size: 716, 195
+  orig: 716, 195
+  offset: 0, 0
+  index: -1
+sg
+  rotate: true
+  xy: 2, 199
+  size: 514, 471
+  orig: 514, 471
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: true
+  xy: 475, 395
+  size: 318, 130
+  orig: 318, 130
+  offset: 0, 0
+  index: -1

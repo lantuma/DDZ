@@ -1,0 +1,112 @@
+{
+"skeleton": {
+	"hash": "iV1bqMAAkxoF/fWOX4Tfh3Q+Slo",
+	"spine": "3.8.64",
+	"x": -164.32,
+	"y": -4.4,
+	"width": 348,
+	"height": 317,
+	"images": "",
+	"audio": "/Users/lantuma/Desktop/新酷马游戏/子游戏界面/斗地主/斗地主内容动效/角色/变身云朵/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "yun1", "parent": "root", "x": 4.56, "y": 160 },
+	{ "name": "yun2", "parent": "root", "x": 0.05, "y": 165.41 },
+	{ "name": "yun3", "parent": "root", "x": 0.95, "y": 160.9 },
+	{ "name": "yun4", "parent": "root", "x": 1.85, "y": 166.31 },
+	{ "name": "yun5", "parent": "root", "x": -1.75, "y": 167.22 },
+	{ "name": "yun6", "parent": "root", "x": -1.75, "y": 161.8 },
+	{ "name": "yun7", "parent": "root", "x": 6.36, "y": 155.49 }
+],
+"slots": [
+	{ "name": "yun1", "bone": "yun1", "attachment": "yun1" },
+	{ "name": "yun2", "bone": "yun2", "attachment": "yun2" },
+	{ "name": "yun3", "bone": "yun3", "attachment": "yun3" },
+	{ "name": "yun4", "bone": "yun4", "attachment": "yun4" },
+	{ "name": "yun5", "bone": "yun5", "attachment": "yun5" },
+	{ "name": "yun6", "bone": "yun6", "attachment": "yun6" },
+	{ "name": "yun7", "bone": "yun7", "attachment": "yun7" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yun1": {
+				"yun1": { "x": 0.62, "y": -6.4, "width": 301, "height": 316 }
+			},
+			"yun2": {
+				"yun2": { "x": 9.63, "y": -9.81, "width": 348, "height": 314 }
+			},
+			"yun3": {
+				"yun3": { "x": 9.73, "y": -5.3, "width": 286, "height": 292 }
+			},
+			"yun4": {
+				"yun4": { "x": 3.33, "y": -1.71, "width": 289, "height": 296 }
+			},
+			"yun5": {
+				"yun5": { "x": 10.93, "y": -2.62, "width": 305, "height": 270 }
+			},
+			"yun6": {
+				"yun6": { "x": -1.57, "y": 0.8, "width": 246, "height": 240 }
+			},
+			"yun7": {
+				"yun7": { "x": 3.32, "y": 0.11, "width": 228, "height": 224 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"yun7": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.6, "name": "yun7" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"yun6": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.5, "name": "yun6" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"yun1": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"yun5": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.4, "name": "yun5" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"yun4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3, "name": "yun4" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"yun3": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2, "name": "yun3" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"yun2": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1, "name": "yun2" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		}
+	}
+}
+}

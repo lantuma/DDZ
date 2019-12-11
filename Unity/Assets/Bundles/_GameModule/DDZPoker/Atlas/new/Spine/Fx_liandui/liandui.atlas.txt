@@ -1,0 +1,83 @@
+
+liandui.png
+size: 360,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+da
+  rotate: false
+  xy: 261, 8
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+gt
+  rotate: true
+  xy: 260, 170
+  size: 358, 98
+  orig: 358, 98
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: false
+  xy: 73, 10
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+quan2
+  rotate: true
+  xy: 2, 2
+  size: 45, 69
+  orig: 45, 69
+  offset: 0, 0
+  index: -1
+quan3
+  rotate: false
+  xy: 2, 49
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+quan4
+  rotate: false
+  xy: 2, 171
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+quan5
+  rotate: true
+  xy: 123, 193
+  size: 97, 99
+  orig: 97, 99
+  offset: 0, 0
+  index: -1
+quan6
+  rotate: false
+  xy: 123, 96
+  size: 97, 95
+  orig: 97, 95
+  offset: 0, 0
+  index: -1
+quan7
+  rotate: true
+  xy: 261, 89
+  size: 79, 91
+  orig: 79, 91
+  offset: 0, 0
+  index: -1
+sg
+  rotate: false
+  xy: 2, 292
+  size: 256, 236
+  orig: 256, 236
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 123, 31
+  size: 136, 63
+  orig: 136, 63
+  offset: 0, 0
+  index: -1

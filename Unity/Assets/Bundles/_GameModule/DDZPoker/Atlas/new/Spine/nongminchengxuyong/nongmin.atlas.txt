@@ -1,0 +1,160 @@
+
+nongmin.png
+size: 758,189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bizi
+  rotate: false
+  xy: 655, 6
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+duzui
+  rotate: false
+  xy: 493, 7
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+kumei
+  rotate: false
+  xy: 312, 57
+  size: 103, 37
+  orig: 103, 37
+  offset: 0, 0
+  index: -1
+miyan
+  rotate: true
+  xy: 740, 112
+  size: 75, 16
+  orig: 75, 16
+  offset: 0, 0
+  index: -1
+shanghudiejie
+  rotate: true
+  xy: 711, 42
+  size: 50, 45
+  orig: 50, 45
+  offset: 0, 0
+  index: -1
+shenzi
+  rotate: false
+  xy: 571, 78
+  size: 111, 109
+  orig: 111, 109
+  offset: 0, 0
+  index: -1
+shoupai
+  rotate: false
+  xy: 646, 28
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 6
+  size: 180, 181
+  orig: 180, 181
+  offset: 0, 0
+  index: -1
+weixiaozui
+  rotate: false
+  xy: 567, 28
+  size: 77, 48
+  orig: 77, 48
+  offset: 0, 0
+  index: -1
+xiahudiejie
+  rotate: false
+  xy: 405, 2
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+xiaomei
+  rotate: false
+  xy: 306, 14
+  size: 97, 41
+  orig: 97, 41
+  offset: 0, 0
+  index: -1
+xiaoyan
+  rotate: false
+  xy: 567, 3
+  size: 86, 23
+  orig: 86, 23
+  offset: 0, 0
+  index: -1
+yalnlei2
+  rotate: false
+  xy: 184, 90
+  size: 126, 97
+  orig: 126, 97
+  offset: 0, 0
+  index: -1
+yanlei1
+  rotate: false
+  xy: 312, 96
+  size: 132, 91
+  orig: 132, 91
+  offset: 0, 0
+  index: -1
+yanlei3
+  rotate: false
+  xy: 184, 11
+  size: 120, 77
+  orig: 120, 77
+  offset: 0, 0
+  index: -1
+yanlei4
+  rotate: false
+  xy: 446, 98
+  size: 123, 89
+  orig: 123, 89
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 711, 8
+  size: 44, 32
+  orig: 44, 32
+  offset: 0, 0
+  index: -1
+youshouzhang
+  rotate: false
+  xy: 538, 70
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+youxiuzi
+  rotate: true
+  xy: 417, 50
+  size: 44, 27
+  orig: 44, 27
+  offset: 0, 0
+  index: -1
+zhalngzui
+  rotate: true
+  xy: 684, 94
+  size: 93, 54
+  orig: 93, 54
+  offset: 0, 0
+  index: -1
+zhengyan
+  rotate: false
+  xy: 446, 61
+  size: 90, 35
+  orig: 90, 35
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 455, 2
+  size: 36, 57
+  orig: 36, 57
+  offset: 0, 0
+  index: -1

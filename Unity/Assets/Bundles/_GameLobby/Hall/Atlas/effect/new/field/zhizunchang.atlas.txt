@@ -1,0 +1,132 @@
+
+zhizunchang.png
+size: 741,237
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoshi2
+  rotate: false
+  xy: 420, 19
+  size: 79, 83
+  orig: 79, 83
+  offset: 0, 0
+  index: -1
+baoshi4
+  rotate: false
+  xy: 420, 19
+  size: 79, 83
+  orig: 79, 83
+  offset: 0, 0
+  index: -1
+baoshi3
+  rotate: false
+  xy: 501, 20
+  size: 78, 82
+  orig: 78, 82
+  offset: 0, 0
+  index: -1
+baoshi5
+  rotate: false
+  xy: 662, 158
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+baoshi6
+  rotate: true
+  xy: 662, 29
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+baoshizu
+  rotate: false
+  xy: 2, 10
+  size: 240, 225
+  orig: 240, 225
+  offset: 0, 0
+  index: -1
+caizuan@2x
+  rotate: false
+  xy: 601, 104
+  size: 49, 52
+  orig: 49, 52
+  offset: 0, 0
+  index: -1
+guangdai
+  rotate: false
+  xy: 581, 22
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+huangguangxing1@2x
+  rotate: false
+  xy: 335, 16
+  size: 83, 86
+  orig: 83, 86
+  offset: 0, 0
+  index: -1
+huangguangxing2@2x
+  rotate: false
+  xy: 652, 105
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+huangguangxing3@2x
+  rotate: false
+  xy: 652, 105
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+lvbaoshi
+  rotate: true
+  xy: 244, 6
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+xing1
+  rotate: false
+  xy: 662, 2
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+xing2
+  rotate: true
+  xy: 704, 127
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+xing3
+  rotate: true
+  xy: 335, 3
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+xing4@2x
+  rotate: false
+  xy: 420, 2
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+xing5@2x
+  rotate: false
+  xy: 601, 206
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+zhizunchang
+  rotate: false
+  xy: 244, 104
+  size: 355, 131
+  orig: 355, 131
+  offset: 0, 0
+  index: -1

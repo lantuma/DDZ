@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BasicCanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Map
+  - Hidden
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 867544399
+    locked: 0
+  - name: Popup
+    uniqueID: 1234096379
+    locked: 0
+  - name: Popup2
+    uniqueID: 954573985
+    locked: 0
+  - name: Top
+    uniqueID: 1893084285
+    locked: 0
+  - name: Topmost
+    uniqueID: 2716581411
+    locked: 0

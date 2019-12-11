@@ -1,0 +1,41 @@
+{
+"skeleton": {
+	"hash": "l/cyTHiXfYgUyoGqgBNb571o+AE",
+	"spine": "3.8.64",
+	"x": -705.36,
+	"y": 17.35,
+	"width": 213,
+	"height": 91,
+	"images": "./images/",
+	"audio": "/Users/lantuma/Documents/新酷马游戏/大厅顶部流光/images"
+},
+"bones": [
+	{ "name": "root", "y": -2.7 },
+	{ "name": "liuguang", "parent": "root", "length": 66.91, "x": -583.12, "y": 65.19 }
+],
+"slots": [
+	{ "name": "liuguang", "bone": "liuguang", "attachment": "liuguang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"liuguang": {
+				"liuguang": { "x": -15.74, "y": 0.35, "width": 213, "height": 91 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"liuguang": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "x": 1288.38 }
+				]
+			}
+		}
+	}
+}
+}

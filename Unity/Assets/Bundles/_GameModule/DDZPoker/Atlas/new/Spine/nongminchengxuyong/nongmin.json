@@ -1,0 +1,862 @@
+{
+"skeleton": {
+	"hash": "az1ST1AdUQQdGgMaXYamgH9CtAE",
+	"spine": "3.8.64",
+	"x": -126.15,
+	"y": 10.55,
+	"width": 243,
+	"height": 270,
+	"images": "",
+	"audio": "/Users/lantuma/Desktop/新酷马游戏/子游戏界面/斗地主/斗地主内容动效/角色/农民/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "miyan", "parent": "root", "x": 7.95, "y": 166.35 },
+	{ "name": "bizi", "parent": "root", "x": 17.54, "y": 155.28 },
+	{ "name": "zuoshou", "parent": "root", "length": 34.15, "rotation": -83.8, "x": -28.21, "y": 96.24 },
+	{ "name": "shoupai", "parent": "root", "x": 84, "y": 93.01 },
+	{ "name": "zhengyan", "parent": "root", "x": 14.5, "y": 169.85 },
+	{ "name": "xiaomei", "parent": "root", "x": 11.49, "y": 192.14 },
+	{ "name": "xiaoyan", "parent": "root", "x": 19.44, "y": 173.59 }
+],
+"slots": [
+	{ "name": "youshou", "bone": "root", "attachment": "youshou" },
+	{ "name": "youxiuzi", "bone": "root", "attachment": "youxiuzi" },
+	{ "name": "shoupai", "bone": "shoupai", "attachment": "shoupai" },
+	{ "name": "youshouzhang", "bone": "root", "attachment": "youshouzhang" },
+	{ "name": "shenzi", "bone": "root", "attachment": "shenzi" },
+	{ "name": "zuoshou", "bone": "zuoshou", "attachment": "zuoshou" },
+	{ "name": "shanghudiejie", "bone": "root", "attachment": "shanghudiejie" },
+	{ "name": "xiahudiejie", "bone": "root", "attachment": "xiahudiejie" },
+	{ "name": "tou", "bone": "root", "attachment": "tou" },
+	{ "name": "bizi", "bone": "bizi", "attachment": "bizi" },
+	{ "name": "zhalngzui", "bone": "root", "attachment": "zhalngzui" },
+	{ "name": "weixiaozui", "bone": "root", "attachment": "weixiaozui" },
+	{ "name": "duzui", "bone": "root", "attachment": "duzui" },
+	{ "name": "xiaoyan", "bone": "xiaoyan", "attachment": "xiaoyan" },
+	{ "name": "zhengyan", "bone": "zhengyan", "attachment": "zhengyan" },
+	{ "name": "miyan", "bone": "miyan", "attachment": "miyan" },
+	{ "name": "kumei", "bone": "root", "attachment": "kumei" },
+	{ "name": "xiaomei", "bone": "xiaomei", "attachment": "xiaomei" },
+	{ "name": "yanlei4", "bone": "root", "attachment": "yanlei4" },
+	{ "name": "yanlei3", "bone": "root", "attachment": "yanlei3" },
+	{ "name": "yalnlei2", "bone": "root", "attachment": "yalnlei2" },
+	{ "name": "yanlei1", "bone": "root", "attachment": "yanlei1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"tou": {
+				"tou": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 75.85, 99.55, -104.15, 99.55, -104.15, 280.55, 75.85, 280.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 180,
+					"height": 181
+				}
+			},
+			"yanlei1": {
+				"yanlei1": { "x": 4.85, "y": 131.05, "width": 132, "height": 91 }
+			},
+			"yanlei3": {
+				"yanlei3": { "x": 9.85, "y": 140.05, "width": 120, "height": 77 }
+			},
+			"zhengyan": {
+				"zhengyan": { "x": -5.65, "y": -5.8, "width": 90, "height": 35 }
+			},
+			"zuoshou": {
+				"zuoshou": {
+					"type": "mesh",
+					"uvs": [ 1, 0.20627, 1, 0.61048, 1, 1, 0.4418, 1, 0, 1, 0, 0.46171, 0, 0.15855, 0, 0, 0.43291, 0, 0.69958, 0, 0.89958, 0, 1, 0, 0.10847, 0.66662, 0.29958, 0.76206, 0.74403, 0.50943, 0.56625, 0.55154, 0.51736, 0.49539, 0.94071, 0.08449 ],
+					"triangles": [ 17, 10, 11, 6, 7, 8, 17, 11, 0, 16, 5, 6, 16, 8, 9, 16, 6, 8, 9, 10, 17, 0, 16, 9, 0, 9, 17, 14, 16, 0, 15, 16, 14, 14, 0, 1, 12, 5, 16, 12, 16, 15, 13, 12, 15, 4, 5, 12, 4, 12, 13, 1, 3, 13, 4, 13, 3, 15, 14, 1, 1, 13, 15, 3, 1, 2 ],
+					"vertices": [ 5.27, 16.59, 28.18, 14.1, 50.25, 11.7, 48.08, -8.28, 46.36, -24.09, 15.86, -20.78, -1.32, -18.91, -10.31, -17.93, -8.62, -2.44, -7.58, 7.11, -6.81, 14.26, -6.42, 17.86, 27.89, -18.16, 34.04, -11.9, 21.46, 5.56, 23.15, -1.06, 19.78, -2.47, -1.86, 15.22 ],
+					"hull": 12,
+					"edges": [ 14, 16, 12, 14, 16, 12, 8, 10, 10, 12, 10, 24, 24, 26, 4, 6, 6, 8, 26, 6, 4, 2, 2, 28, 28, 30, 30, 32, 2, 0, 0, 22, 32, 0, 20, 22, 16, 18, 18, 20, 0, 34, 34, 20 ],
+					"width": 36,
+					"height": 57
+				}
+			},
+			"youshouzhang": {
+				"youshouzhang": { "x": 83.35, "y": 88.55, "width": 23, "height": 26 }
+			},
+			"youxiuzi": {
+				"youxiuzi": { "x": 41.85, "y": 96.05, "width": 44, "height": 27 }
+			},
+			"kumei": {
+				"kumei": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 55.85, 166.55, -47.15, 166.55, -47.15, 203.55, 55.85, 203.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 103,
+					"height": 37
+				}
+			},
+			"youshou": {
+				"youshou": { "x": 72.85, "y": 91.55, "width": 44, "height": 32 }
+			},
+			"miyan": {
+				"miyan": { "x": 3.4, "y": -0.8, "width": 75, "height": 16 }
+			},
+			"duzui": {
+				"duzui": { "x": 12.85, "y": 125.55, "width": 72, "height": 52 }
+			},
+			"xiahudiejie": {
+				"xiahudiejie": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -53.15, 87.55, -101.15, 87.55, -101.15, 133.55, -53.15, 133.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 48,
+					"height": 46
+				}
+			},
+			"xiaoyan": {
+				"xiaoyan": { "x": -9.59, "y": -3.55, "width": 86, "height": 23 }
+			},
+			"yalnlei2": {
+				"yalnlei2": { "x": 12.85, "y": 134.05, "width": 126, "height": 97 }
+			},
+			"shenzi": {
+				"shenzi": { "x": 9.35, "y": 65.05, "width": 111, "height": 109 }
+			},
+			"yanlei4": {
+				"yanlei4": { "x": 9.35, "y": 138.05, "width": 123, "height": 89 }
+			},
+			"bizi": {
+				"bizi": { "x": -0.2, "y": 1.27, "width": 21, "height": 20 }
+			},
+			"shanghudiejie": {
+				"shanghudiejie": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -76.15, 113.55, -126.15, 113.55, -126.15, 158.55, -76.15, 158.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 45
+				}
+			},
+			"xiaomei": {
+				"xiaomei": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 43.36, -26.6, -53.64, -26.6, -53.64, 14.4, 43.36, 14.4 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 97,
+					"height": 41
+				}
+			},
+			"zhalngzui": {
+				"zhalngzui": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 57.85, 98.55, -35.15, 98.55, -35.15, 152.55, 57.85, 152.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 54
+				}
+			},
+			"shoupai": {
+				"shoupai": { "x": 1.35, "y": 12.54, "width": 63, "height": 48 }
+			},
+			"weixiaozui": {
+				"weixiaozui": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 50.85, 100.55, -26.15, 100.55, -26.15, 148.55, 50.85, 148.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 77,
+					"height": 48
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"dengdai": {
+		"slots": {
+			"yanlei1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"zhengyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yalnlei2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"duzui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"zhalngzui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei4": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xiaoyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"kumei": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei3": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"miyan": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "y": -3.37 },
+					{ "time": 1.6667 }
+				]
+			},
+			"bizi": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "y": -5.04 },
+					{ "time": 1.6667 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"tou": {
+					"tou": [
+						{
+							"offset": 5,
+							"vertices": [ -0.95599, 0, -0.95599 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -8.12601, 0, -8.12601 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.95599, 0, -0.95599 ]
+						}
+					]
+				},
+				"xiaomei": {
+					"xiaomei": [
+						{
+							"offset": 5,
+							"vertices": [ -0.284, 0, -0.284 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 1,
+							"vertices": [ -1.146, 0, -1.146, 0, -7.328, 0, -7.328 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.284, 0, -0.284 ]
+						}
+					]
+				},
+				"shanghudiejie": {
+					"shanghudiejie": [
+						{
+							"offset": 5,
+							"vertices": [ -0.356, 0, -0.356 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -4.62799, 0, -4.62799 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.356, 0, -0.356 ]
+						}
+					]
+				},
+				"xiahudiejie": {
+					"xiahudiejie": [
+						{
+							"offset": 5,
+							"vertices": [ -0.35599, 0, -0.35599 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -2.13599, 0, -2.13599 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.35599, 0, -0.35599 ]
+						}
+					]
+				},
+				"weixiaozui": {
+					"weixiaozui": [
+						{
+							"offset": 5,
+							"vertices": [ -1.42397, 0, -1.42397 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -6.40794, 0, -6.40794 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -1.42397, 0, -1.42397 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"shengli": {
+		"slots": {
+			"yanlei1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"zhengyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yalnlei2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"duzui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei4": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"kumei": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei3": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"weixiaozui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"miyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"xiaomei": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": -2.12 },
+					{ "time": 1 }
+				]
+			},
+			"xiaoyan": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "y": -3.71 },
+					{ "time": 1 }
+				]
+			},
+			"shoupai": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "angle": -8.52 },
+					{ "time": 1 }
+				]
+			},
+			"zuoshou": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "angle": -25.95 },
+					{ "time": 1 }
+				]
+			},
+			"bizi": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "y": -5.49 },
+					{ "time": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"tou": {
+					"tou": [
+						{
+							"offset": 5,
+							"vertices": [ -1.59003, 0, -1.59003 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5,
+							"offset": 5,
+							"vertices": [ -8.48004, 0, -8.48004 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ -1.59003, 0, -1.59003 ]
+						}
+					]
+				},
+				"xiaomei": {
+					"xiaomei": [
+						{
+							"offset": 5,
+							"vertices": [ -1.06001, 0, -1.06001 ]
+						},
+						{
+							"time": 0.5,
+							"offset": 5,
+							"vertices": [ -4.77, 0, -4.77 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ -1.06001, 0, -1.06001 ]
+						}
+					]
+				},
+				"shanghudiejie": {
+					"shanghudiejie": [
+						{
+							"offset": 5,
+							"vertices": [ -1.06001, 0, -1.06001 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5,
+							"offset": 5,
+							"vertices": [ -3.70999, 0, -3.70999 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ -1.06001, 0, -1.06001 ]
+						}
+					]
+				},
+				"xiahudiejie": {
+					"xiahudiejie": [
+						{
+							"offset": 5,
+							"vertices": [ -1.576, 0, -1.576 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 4.33399, 0, 4.33399, 0, -3.94002, 0, -3.94002 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ -1.576, 0, -1.576 ]
+						}
+					]
+				},
+				"zhalngzui": {
+					"zhalngzui": [
+						{
+							"offset": 5,
+							"vertices": [ 1.06001, 0, 1.06001 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5,
+							"offset": 5,
+							"vertices": [ -5.82999, 0, -5.82999 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ 1.06001, 0, 1.06001 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"shibai": {
+		"slots": {
+			"yanlei1": {
+				"attachment": [
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.5, "name": "yanlei1" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"zhengyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yalnlei2": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1667, "name": "yalnlei2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.6667, "name": "yalnlei2" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"xiaomei": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 1, "name": "yanlei4" }
+				]
+			},
+			"xiaoyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"zhalngzui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei3": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3333, "name": "yanlei3" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.8333, "name": "yanlei3" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"weixiaozui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"miyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"tou": {
+					"tou": [
+						{
+							"offset": 5,
+							"vertices": [ -1.436, 0, -1.436 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5,
+							"offset": 5,
+							"vertices": [ -5.02603, 0, -5.02603 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ -1.436, 0, -1.436 ]
+						}
+					]
+				},
+				"kumei": {
+					"kumei": [
+						{
+							"offset": 5,
+							"vertices": [ -1.436, 0, -1.436 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 2.87201, 0, 2.87201, 0, -2.15404, 0, -2.15404 ]
+						},
+						{
+							"time": 1,
+							"offset": 5,
+							"vertices": [ -1.436, 0, -1.436 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"sikao": {
+		"slots": {
+			"yanlei1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yalnlei2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"duzui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"zhalngzui": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei4": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xiaoyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"kumei": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"yanlei3": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"miyan": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shoupai": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "angle": 8.98 },
+					{ "time": 1.6667 }
+				]
+			},
+			"zuoshou": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "angle": 43.61 },
+					{ "time": 1.6667 }
+				]
+			},
+			"bizi": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "y": -3.54 },
+					{ "time": 1.6667 }
+				]
+			},
+			"zhengyan": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "y": -2.53 },
+					{ "time": 1.6667 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"tou": {
+					"tou": [
+						{
+							"offset": 5,
+							"vertices": [ -0.50604, 0, -0.50604 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -6.07205, 0, -6.07205 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.50604, 0, -0.50604 ]
+						}
+					]
+				},
+				"xiaomei": {
+					"xiaomei": [
+						{
+							"offset": 5,
+							"vertices": [ -0.50598, 0, -0.50598 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 1,
+							"vertices": [ -1.51799, 0, -1.51799, 0, -4.04797, 0, -4.04797 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.50598, 0, -0.50598 ]
+						}
+					]
+				},
+				"shanghudiejie": {
+					"shanghudiejie": [
+						{
+							"offset": 5,
+							"vertices": [ -0.50601, 0, -0.50601 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -3.036, 0, -3.036 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.50601, 0, -0.50601 ]
+						}
+					]
+				},
+				"xiahudiejie": {
+					"xiahudiejie": [
+						{
+							"offset": 5,
+							"vertices": [ -0.50603, 0, -0.50603 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 1,
+							"vertices": [ 1.01196, 0, 1.01196, 0, -3.03601, 0, -3.03601 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.50603, 0, -0.50603 ]
+						}
+					]
+				},
+				"zuoshou": {
+					"zuoshou": [
+						{
+							"offset": 16,
+							"vertices": [ 0.15509, -0.01686 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 16,
+							"vertices": [ 3.05127, 3.20648, 2.51376, 0.86734 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 16,
+							"vertices": [ 0.15509, -0.01686 ]
+						}
+					]
+				},
+				"weixiaozui": {
+					"weixiaozui": [
+						{
+							"offset": 5,
+							"vertices": [ -0.50603, 0, -0.50603 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.8333,
+							"offset": 5,
+							"vertices": [ -6.07202, 0, -6.07202 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 5,
+							"vertices": [ -0.50603, 0, -0.50603 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,195 @@
+{
+"skeleton": {
+	"hash": "ACp6pZMaycjlhzVopALO6oGa6YE",
+	"spine": "3.8.64",
+	"x": -124.37,
+	"y": -20.15,
+	"width": 246,
+	"height": 251,
+	"images": "./images/",
+	"audio": "E:/LTM/新酷马游戏/新版大厅子游戏icon动效/斗地主spine动效/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "doudizhu", "parent": "root", "length": 27.67, "rotation": 90, "x": 0.82, "y": 47.63 },
+	{ "name": "dizhuyingzuo", "parent": "doudizhu", "length": 38.47, "x": 64.12, "y": 51.3 },
+	{ "name": "nongminshengliyou", "parent": "root", "length": 44.56, "rotation": 89.13, "x": 50.09, "y": 111.08 },
+	{ "name": "44", "parent": "root", "length": 15.54, "rotation": 87.51, "x": 4.87, "y": 150.23 },
+	{ "name": "47", "parent": "root", "length": 21.6, "rotation": 90, "x": 14.32, "y": 179.26 },
+	{ "name": "50", "parent": "root", "length": 22.29, "rotation": 91.74, "x": 8.24, "y": 209.63 },
+	{ "name": "43", "parent": "root", "length": 18.91, "rotation": 92.05, "x": -7.28, "y": 175.21 },
+	{ "name": "46", "parent": "root", "length": 16.26, "rotation": 94.76, "x": -22.81, "y": 201.53 }
+],
+"slots": [
+	{ "name": "doudizhu", "bone": "doudizhu", "attachment": "doudizhu" },
+	{ "name": "366", "bone": "root", "attachment": "366" },
+	{ "name": "50", "bone": "50", "attachment": "50" },
+	{ "name": "44", "bone": "44", "attachment": "44" },
+	{ "name": "nongminshengliyou", "bone": "nongminshengliyou", "attachment": "nongminshengliyou" },
+	{ "name": "dizhuyingzuo", "bone": "dizhuyingzuo", "attachment": "dizhuyingzuo" },
+	{ "name": "776", "bone": "root", "attachment": "776" },
+	{ "name": "2", "bone": "root" },
+	{ "name": "1", "bone": "root" },
+	{ "name": "4", "bone": "root" },
+	{ "name": "3", "bone": "root" },
+	{ "name": "47", "bone": "47", "attachment": "47" },
+	{ "name": "43", "bone": "43", "attachment": "43" },
+	{ "name": "46", "bone": "46", "attachment": "46" },
+	{ "name": "777", "bone": "root", "attachment": "776" },
+	{ "name": "778", "bone": "root", "attachment": "776" },
+	{ "name": "组 53", "bone": "root", "attachment": "组 53" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"44": {
+				"44": { "x": 2.6, "y": 0.35, "rotation": -87.51, "width": 18, "height": 26 }
+			},
+			"46": {
+				"46": { "x": 4.64, "y": -2.33, "rotation": -94.76, "width": 23, "height": 19 }
+			},
+			"47": {
+				"47": { "x": 9.09, "y": 0.69, "rotation": -90, "width": 30, "height": 25 }
+			},
+			"dizhuyingzuo": {
+				"dizhuyingzuo": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -7.43, -150.42, -7.43, -59.15, 102.62, -59.15, 102.62, -150.42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 102,
+					"height": 123
+				}
+			},
+			"nongminshengliyou": {
+				"nongminshengliyou": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -10.03, 53.95, -11.6, 157.85, 104.57, 159.61, 106.15, 55.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 110,
+					"height": 123
+				}
+			},
+			"776": {
+				"776": { "x": -29.45, "y": 113.5, "scaleX": 0.2256, "scaleY": 0.2256, "width": 400, "height": 400 }
+			},
+			"777": {
+				"776": { "x": 19.73, "y": 123.88, "scaleX": 0.1953, "scaleY": 0.1953, "width": 400, "height": 400 }
+			},
+			"doudizhu": {
+				"doudizhu": { "x": 52.22, "y": 2.19, "rotation": -90, "width": 246, "height": 240 }
+			},
+			"50": {
+				"50": { "x": 6.69, "y": -1.09, "rotation": -91.74, "width": 29, "height": 29 }
+			},
+			"366": {
+				"366": { "x": -2.93, "y": 150.23, "scaleX": 0.6161, "scaleY": 0.6161, "width": 266, "height": 129 }
+			},
+			"778": {
+				"776": { "x": 39.09, "y": 113.86, "scaleX": 0.2281, "scaleY": 0.2281, "width": 400, "height": 400 }
+			},
+			"组 53": {
+				"组 53": { "x": 8.07, "y": 109.52, "scaleX": 0.705, "scaleY": 0.705, "width": 49, "height": 47 }
+			},
+			"43": {
+				"43": { "x": 10.1, "y": -1.27, "rotation": -92.05, "width": 16, "height": 19 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"50": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.37, "y": -12.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"47": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "y": 6.33, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"44": {
+				"translate": [
+					{ "time": 0.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": 0.3, "y": 6.83, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"43": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.26, "y": -7.33, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"46": {
+				"translate": [
+					{ "x": -0.2, "y": 2.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "x": 0.55, "y": -6.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": -0.2, "y": 2.42 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"dizhuyingzuo": {
+					"dizhuyingzuo": [
+						{
+							"offset": 4,
+							"vertices": [ -0.47, 0, -0.47 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.5667,
+							"offset": 4,
+							"vertices": [ -8.174, 0, -8.174 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 1.2333,
+							"offset": 4,
+							"vertices": [ -0.47, 0, -0.47 ]
+						}
+					]
+				},
+				"nongminshengliyou": {
+					"nongminshengliyou": [
+						{
+							"offset": 4,
+							"vertices": [ -0.97388, -0.01474, -0.97388, -0.01474 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 0.7667,
+							"offset": 4,
+							"vertices": [ -4.86938, -0.07376, -4.86938, -0.07376 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{
+							"time": 1.3333,
+							"offset": 4,
+							"vertices": [ -0.97388, -0.01474, -0.97388, -0.01474 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,72 @@
+{
+"skeleton": {
+	"hash": "aLjpvH9Mvba3W02Tt3RQpFgEBu8",
+	"spine": "3.8.76",
+	"x": -0.88,
+	"y": -0.87,
+	"width": 1.78,
+	"height": 1.78,
+	"images": "./images/",
+	"audio": "/Users/lantuma/Documents/新酷马游戏/触屏波纹/波纹/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "b2", "parent": "root", "y": 0.01, "scaleX": 0.01, "scaleY": 0.01 },
+	{ "name": "b3", "parent": "root", "x": 0.01, "y": 0.02, "scaleX": 0.01, "scaleY": 0.01 }
+],
+"slots": [
+	{ "name": "b3", "bone": "b3", "attachment": "b3" },
+	{ "name": "b2", "bone": "b2", "attachment": "b2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"b2": {
+				"b2": { "x": 0.08, "y": 0.23, "width": 107, "height": 107 }
+			},
+			"b3": {
+				"b3": { "x": 0.07, "y": 0.22, "width": 178, "height": 178 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"b2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"b3": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff70", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1667, "name": "b3" }
+				]
+			}
+		},
+		"bones": {
+			"b2": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 74.855, "y": 74.855 }
+				]
+			},
+			"b3": {
+				"scale": [
+					{ "time": 0.1667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 80.637, "y": 80.637 }
+				]
+			}
+		}
+	}
+}
+}

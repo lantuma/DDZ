@@ -1,0 +1,111 @@
+
+shangfu.png
+size: 736,60
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 334, 4
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 489, 2
+  size: 49, 56
+  orig: 49, 56
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 114, 4
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 640, 4
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 688, 4
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 280, 5
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 170, 4
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+12
+  rotate: true
+  xy: 170, 4
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 387, 2
+  size: 49, 56
+  orig: 49, 56
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 540, 4
+  size: 54, 48
+  orig: 54, 48
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 4
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 438, 2
+  size: 49, 56
+  orig: 49, 56
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 58, 4
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 225, 4
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 590, 4
+  size: 54, 48
+  orig: 54, 48
+  offset: 0, 0
+  index: -1
